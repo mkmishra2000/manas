@@ -1,0 +1,84 @@
+<html>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+/* Middle column */
+.column.middle {
+  width: 70%;
+  font-size:26;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+		body {
+  margin:1;
+}
+* {
+  box-sizing: border-box;
+}
+		img.img
+		{
+			border-radius :55%;
+		}
+		.column.side 
+		{
+			width:350px;
+			height:auto;
+			padding-left: 40px;
+			padding-top:40px;
+			border: 1px solid black;
+			box-sizing: border-box;
+			background-color:lightblue;
+			font-size:36;
+			  width: 30%;
+		}
+		#pr
+		{
+			font-size:46;
+		}
+		.pink
+		{
+			color:rgb(255,50,250);
+		}
+			
+	</style>
+	<head>
+		<title>Haldhar Dwivedi</title>
+	</head>
+	<body>
+		<div class="row">
+		<div class="column side">
+			<span div="img"><img class="img" src="https://github.com/Haldhardwivedi/1/blob/master/t.jpeg?raw=true" height="300px" width="280px"></span>
+			<h3>Manas Kumar Mishra</h3>
+			<h4>ECE Undergrad | IIITDM Kancheepuram</h4>
+			<h4><a href="https://haldhardwivedi.github.io/1/">Home</a></h4>
+			<h4><a href="/home/haldhar/Downloads/1.pdf">Skills</a></h4>
+			<h4><a href="https://haldhardwivedi.github.io/1/">Contact</a></h4>
+		</div>
+		<div class="column middle">
+			<span id="pr">Manas Kumar Mishra</span>
+			<p><b>Manas Kumar Mishra</b> is a ECE Undergrad  <br>
+			student at IIITDM Kancheepuram</p>
+			<p>
+			here is the link to solution of electromagnetics assignment<a href="aboutme.h">CLICK HERE</a>
+			</p>
+			<p ><center class="pink">Wants to know more about me?</center></p>
+			<img src="https://github.com/Haldhardwivedi/1/blob/master/h.png?raw=true" height="75%" width="100%">
+		</div>
+		</div>
+	</body>
+</html>
